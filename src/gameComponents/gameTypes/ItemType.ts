@@ -1,11 +1,12 @@
 enum ItemType {
-    WEAPON,
-    ARMOR,
-    POTION,
-    BOOK,
-    RING,
-    FOOD,
-    MISC,
+    WEAPON = "Weapon",
+    STAFF = "Staff",
+    ARMOR = "Armor",
+    POTION = "Potion",
+    BOOK = "Book",
+    RING = "Ring",
+    FOOD = "Food",
+    MISC = "Misc",
 }
 
 export default ItemType;
